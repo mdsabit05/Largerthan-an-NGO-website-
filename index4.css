@@ -1,0 +1,83 @@
+.media {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #fcedc6;
+  padding-bottom: 6.5vw;
+
+}
+.medialeft {
+  height: auto;
+  width: 50%;
+  padding-top: 10vw;
+  padding-left: 10vw;
+}
+.medialeft h2 {
+  font-size: 3.5vw;
+  margin-top: 2vw;
+  margin-left: 5vw;
+  font-family: "Roboto", sans-serif;
+  padding-right: 7vw;
+}
+.medialeft p {
+  font-size: 1.2vw;
+  margin-top: 2vw;
+  margin-left: 5vw;
+  margin-bottom: 3vw;
+  font-family: "Roboto", sans-serif;
+  padding-right: 7vw;
+  line-height: 1.6;
+}
+.medialeft a {
+  margin-left: 5vw;
+  padding: 0.7vw 1.7vw;
+  background-color: rgb(243, 178, 80);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3vw;
+  color: #111;
+  border-radius: 4px;
+}
+.mediaright {
+  background-color: #fcedc6;
+  height: auto;
+  width: 50%;
+}
+.mediacontent {
+  background-color: #ffffff;
+  /* height: 35vw; */
+  height: auto;
+  width: 35vw;
+  margin-top: 10vw;
+  margin-left: 2vw;
+  border-radius: 20px;
+  margin-bottom: 1vw;
+}
+.arrangediv {
+  display: grid;
+  grid-template-columns: 11vw 22vw;
+  padding: 1vw;
+}
+.first img {
+  height: 9vw;
+  width: 10vw;
+  border-radius: 35px;
+}
+.first h4 {
+  font-size: 1.2vw;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0.7vw;
+  margin-top: 0.5vw;
+}
+.first h5 {
+  font-size: 1vw;
+  font-family: "Roboto", sans-serif;
+  color: rgb(63, 61, 61);
+  margin-bottom: 0.7vw;
+}
+.first p {
+  font-size: 1vw;
+  font-family: "Roboto", sans-serif;
+  color: rgb(48, 46, 46);
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}

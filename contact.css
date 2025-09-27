@@ -1,0 +1,111 @@
+.contact {
+  height: 100vh;
+  display: flex;
+  background-color: #fcedc6;
+}
+.contactleft {
+  height: 100vh;
+  padding-top: 10vw;
+  padding-left: 13vw;
+  width: 50%;
+}
+.contactright {
+  padding-top: 10vw;
+  height: 100vh;
+  width: 50%;
+}
+.contactleft h2 {
+  font-size: 3.7vw;
+  padding-left: 5vw ;
+  padding-right: 4vw;
+  margin-top: 2vw;
+}
+.contactleft p {
+  font-size: 1.2vw;
+  padding-left: 5vw ;
+  padding-right: 4vw;
+  margin-top: 2vw;
+  line-height: 25px;
+}
+.contactright h2 {
+  font-size: 2vw;
+  margin-top: 3vw;
+  margin-bottom: 1vw;
+}
+.contactright p {
+  font-size: 1.3vw;
+}
+#number {
+  border-bottom: 2px solid #8f8f8f;
+  padding-bottom: 0.7vw;
+  display: inline-block;
+}
+#number span{
+  margin-left: 2vw;
+}
+
+
+.contact-container {
+  width: 60%;
+  max-width: 1000px;
+  padding: 5vw 20vw;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.row .input-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.3vw;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+input, textarea {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 8px 0;
+  font-size: 1.2vw;
+  outline: none;
+  resize: none;
+}
+
+textarea {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+  min-height: 150px;
+}
+
+.btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 12px 30px;
+  background: #f5c242;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #dba828;
+}
+.contact-image {
+  width: 100%;
+  height: auto;
+  padding-left: 1vw;
+  margin-top: 3vw;
+}

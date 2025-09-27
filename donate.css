@@ -1,0 +1,126 @@
+.whatweDo {
+  background-color: #fcedc6;
+  padding-bottom: 14vw;
+}
+.whatweDo {
+  padding-top: 1vw;
+}
+.whatLeft a {
+  background: #f5c242;
+  padding: 0.7vw 2vw;
+  color: black;
+  margin-left: 17.5vw;
+  border-radius: 5px;
+  font-size: 1.2vw;
+}
+.whatLeft p {
+  margin-bottom: 2vw;
+}
+.imgbox {
+  width: 34vw;
+  height: 25vw;
+  margin-top: 10vw;
+  background: url(image/Screenshot\ 2025-09-25\ 185518.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10vw;
+  border-radius: 15px;
+}
+
+#contriinfo {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.contrileft , .contriright {
+  height: 100vh;
+  width: 50%;
+  margin: 5vh 0;
+}
+.contrileft h2 {
+  margin-top: 3vw;
+  font-size: 3vw;
+  padding-left:10vw;
+  margin-bottom: 2vw;
+}
+.contrileft p {
+  padding-left:10vw;
+  font-size: 1.2vw;
+  line-height: 25px;
+  color: #444141;
+}
+.contriright p {
+  line-height: 25px;
+  font-size: 1.2vw;
+    color: #444141;
+}
+
+.tabs {
+  font-family: Arial, sans-serif;
+  width: 600px;
+  margin: 40px auto;
+}
+
+.tab-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+}
+
+.tab-links li {
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #131313;
+  position: relative;
+  font-size: 1.3vw;
+}
+
+.tab-links li.active {
+  font-weight: bold;
+}
+
+.tab-links li.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f1c40f; /* yellow underline */
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+
+/* ...donation info section... */
+.donate-info {
+  display: flex;
+  margin-left: 8vw;
+}
+.donationheader {
+  font-size: 3vw;
+  font-weight: 600;
+  padding-left: 2vw;
+  margin-bottom: 2vw;
+}
+.donationinfo1 , .donationinfo2 {
+  width: 50%;
+  padding-left: 2vw;
+  font-size: 1.2vw;
+  line-height: 25px;
+  color: #444141;
+  padding-right: 2vw;
+}

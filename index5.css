@@ -1,0 +1,93 @@
+#projectpage {
+  padding-right: 13vw;
+  padding-top: 7vw ;
+}
+#projectpage h3  {
+  padding-left: 15vw;
+  font-weight: 600;
+}
+#projectpage h2 {
+  padding-left: 19.5vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  font-size: 4vw;
+  padding-right: 10vw;
+}
+#projectpage p {
+ padding-left: 19.5vw;
+ font-size: 1.2vw;
+}
+.projectimage {
+  height: 20vw;
+  width: 77%;
+  background-image: url(image/Screenshot\ 2025-09-26\ 184134.png);
+  background-size: cover;
+  margin-left: 19.5vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  border-radius: 15px;
+}
+#projectpage h4 {
+  font-size: 2.5vw;
+  margin-left: 19.5vw;
+  margin-bottom: 1vw;
+}
+#projectpage h5 {
+  font-size: 1.7vw;
+  margin-left: 19.5vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+#projectpage ul {
+  font-size: 1.2vw;
+  list-style: circle;
+   margin-left: 21vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  padding: 60px 280px;
+  background-color: #fcedc6;
+  margin-top: 4vw;
+}
+
+.stat-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+} 
+.stat-box img {
+  height: 1.7vw;
+  width: 1.7vw;
+  object-fit: cover;
+  /* float: left; */
+  margin-right: 1vw;
+}
+
+.stat-box i {
+  font-size: 28px;
+  background: #222;
+  color: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.stat-box h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.stat-box p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+

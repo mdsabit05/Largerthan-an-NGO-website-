@@ -1,0 +1,277 @@
+
+.knowaboutusheader {
+  padding-top: 7vw;
+  margin-left: 8vw;
+  font-size: 2vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.knowaboutuscontent {
+  display: grid;
+  grid-template-columns: 51vw 40vw;
+  padding-top: 5.5vw;
+  padding-left: 2vw;
+  font-family: "Roboto", sans-serif;
+  gap: 0.2vw;
+  margin-bottom: 5vw;
+}
+.knowaboutusTextLeft h2 {
+  font-size: 3vw;
+  padding-left: 10.5vw;
+  font-family: "Roboto", sans-serif;
+}
+#righttoppara {
+  font-size: 1.5vw;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 0.5vw;
+  font-family: "Roboto", sans-serif;
+}
+#rightbottompara {
+  font-size: 1.3vw;
+  font-family: "Roboto", sans-serif;
+
+}
+.knowaboutusvideo {
+  height: 25vw;
+  width: 75%;
+  margin: 5vw 13vw;
+  border-radius: 20px;
+}
+.knowaboutusvideo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+.videobackcolor {
+  background: linear-gradient(to bottom, #ffffff 50%, #fcedc6 50%);
+  padding: 10px 0;
+}
+
+/* .knowaboutusvideo video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    
+} */
+
+/* ...missions... */
+
+.ourcontent {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5vw;
+  background-color: #fcedc6;
+}
+.ourmission , .ourvission{
+  height: 20vw;
+  width: 31%;
+}
+#missiontext , #vissiontext {
+  margin-bottom: 1.5vw;
+  font-weight: 800;
+  font-size: 1.2vw;
+}
+.ourmission h3 , .ourvission h3 {
+  font-size: 1.7vw;
+  margin-bottom: 0.5vw;
+  margin-bottom: 1.5vw;
+}
+.ourvission p , .ourmission p {
+  font-size: 1.2vw;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+}
+#bottomrow {
+  background-color: #fcedc6;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+/* ...Award and recognition section... */
+
+#awardandreco h2 {
+  margin-top: 5vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 3vw;
+  font-weight: 700;
+  margin-bottom: 2vw;
+  justify-self: center;
+}
+.awards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+.award1 , .award2 , .award3 , .award4 {
+  height: 15vw;
+  width: 17vw;
+  margin-bottom: 5vw;
+}
+.award1 {
+  background-image: url(image/award1.png);
+  background-size: contain;
+  height: 17vw;
+  width: 17vw;
+}
+.award2 {
+  background-image: url(image/award2.png);
+  background-size: cover;
+  height: 16vw;
+  width: 17vw;
+}
+.award3 {
+  background-image: url(image/award3.png);
+  background-size: cover;
+  height: 18vw;
+  width: 17vw;
+}
+.award4 {
+  background-image: url(image/award4.png);
+  background-size: cover;
+  height: 18vw;
+  width: 17vw;
+}
+#journey {
+  background-color:  #F2C94C;
+  height: 33vw;
+  width: 80%;
+  margin: 0 auto 5vw auto;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+#ourjourney , .journeyimg {
+  height: 25vw;
+  width: 45%;
+}
+#ourjourney h2 {
+  font-size: 2.7vw;
+  margin-bottom: 1vw;
+  justify-self: flex-start;
+  font-family: "Roboto", sans-serif;
+  padding-left: 4vw;
+  margin-top: 1vw;
+}
+#ourjourney h3 {
+  padding-left: 4vw;
+  padding-top: 2vw;
+  font-size: 1.5vw;
+}
+#ourjourney p {
+  font-size: 1vw;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 4vw;
+}
+.achive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.achive p {
+  font-weight: 500;
+  color: rgb(41, 41, 41);
+}
+.journeyimg {
+  background-image: url(image/journey.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+
+/* ...meet the team section... */
+#meettheteam {
+  padding: 5vw 0;
+}
+#meettheteam h2 {
+  text-align: center;
+  font-size: 2.5vw;
+  margin-bottom: 1vw;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
+.team p {
+  color: rgb(41, 41, 41);
+}
+.member1, .member2, .member3, .member4 , .member5, .member6, .member7, .member8 {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2vw;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.memberimg1, .memberimg2, .memberimg3, .memberimg4 , .memberimg5, .memberimg6, .memberimg7, .memberimg8 {
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  height: 15vw;
+  width: 15vw;
+  margin: 0 auto 1vw auto;
+}
+.memberimg1 {
+  background-image: url(image/Screenshot\ 2025-09-19\ 235147.png);
+}
+.memberimg2 {
+  background-image: url(image/Screenshot\ 2025-09-19\ 235154.png);
+}
+.memberimg3 {
+  background-image: url(image/Screenshot\ 2025-09-19\ 235203.png);
+}
+.memberimg4 {
+  background-image: url(image/Screenshot\ 2025-09-19\ 235210.png);
+}
+.memberimg5 {
+  background-image: url(image/Screenshot\ 2025-09-19\ 235220.png);
+}
+.memberimg6 {
+  background-image: url(image/Screenshot\ 2025-09-19\ 235225.png);
+}
+.memberimg7 {
+  background-image: url(image/Screenshot\ 2025-09-19\ 235231.png);
+}
+.memberimg8 {
+  background-image: url(image/Screenshot\ 2025-09-19\ 235237.png)
+}
+#teamintro {
+  font-size: 1.2vw;
+  font-family: "Roboto", sans-serif;
+  padding: 0vw 33vw;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+.contact1 , .contact2 , .contact3 {
+  height: 1.4vw;
+  width: 1.4vw;
+  background-size: cover;
+  background-position: center;
+  margin: 0.5vw;
+  display: inline-block;
+  cursor: pointer;
+}
+.contact1 {
+  background-image: url(image/facebook.png);
+}
+.contact2 {
+  background-image: url(image/twitter_1051331.png);
+}
+.contact3 {
+  background-image: url(image/linkedin.png);
+}

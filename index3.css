@@ -1,0 +1,93 @@
+/* ...what we do page1... */
+#whatwedo {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+.whatLeft {
+  height: 80vh;
+  width: 60%;
+}
+.whatLeft h3 {
+  margin-top: 10vw;
+  margin-left: 13vw;
+   font-family: "Roboto", sans-serif;
+   letter-spacing: 1px;
+}
+.whatLeft h2 {
+  font-size: 3vw;
+  padding-left: 17.5vw;
+  margin-top: 2vw;
+  padding-right: 5vw;
+}
+.whatLeft p {
+  font-size: 1.2vw;
+  padding-left: 17.5vw;
+  margin-top: 1vw;
+  width: 68%;
+  line-height: 1.5;
+}
+.whatRight {
+  height: 80vh;
+  width: 40%;
+}
+.whatimg {
+  background-image: url(image/larm-rmah-AEaTUnvneik-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 10vw;
+  height: 60%;
+  width: 82%;
+  border-radius: 15px;
+}
+
+/* ...what we do page2... */
+#whatwedo2 {
+  height: 70vh;
+  background-color: #fcedc6;
+}
+#whatwedo2 h2 {
+  padding-top: 5vw;
+  padding-left: 8vw;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+}
+.whatwedo2-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left:6vw;
+}
+.familysupport , .healthbenefit , .education , .basicamenities , .therepy , .publicoutreach {
+  height: 9vw;
+  width: 31%;
+  margin: 1vw;
+}
+.familysupport h3 , .healthbenefit h3 , .education h3 , .basicamenities h3 , .therepy h3 , .publicoutreach h3 {
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
+  padding-top: 0.4vw;
+  margin-left: 3vw;
+}
+.icon1 , .icon2 , .icon3 , .icon4 , .icon5 , .icon6 {
+  height: 2vw;
+  width: 2vw;
+  border: 1.5px solid black;
+  float: left;
+  margin-right: 0.5vw;
+
+}
+.familysupport img , .healthbenefit img , .education img , .basicamenities img , .therepy img , .publicoutreach img {
+  height: 1.3vw;
+  width: 1.5vw;
+  padding: 0.5vw;
+  float: left;
+  border: 1.5px solid black;
+}
+
+.familysupport p , .healthbenefit p , .education p , .basicamenities p , .therepy p , .publicoutreach p {
+  font-size: 1vw;
+  margin-left: 3vw;
+  margin-top: 1vw;
+  line-height: 1.5;
+}
